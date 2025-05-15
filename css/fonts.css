@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "darkside";
+    src: url(../font/darkside/Blackside\ Personal\ Use\ Only.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ancient";
+    src: url(../font/ancient/Ancient\ Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
