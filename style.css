@@ -134,62 +134,6 @@ textarea:focus {
     width: 25px;
 }
 
-main {
-    background-color: rgb(50, 50, 50);
-    width: 100%;
-}
-
-main h2 {
-    font-family: darkside;
-    font-size: 100px;
-    text-align: center;
-    margin-top: 50px;
-    font-weight: 100;
-    text-shadow: 0 0 50px rgb(140, 255, 249);
-    color: rgb(0, 60, 255);
-}
-
-.welcome {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    max-width: 60%;
-    margin: auto;
-    text-align: center;
-    font-family: ancient;
-    font-weight: 100;
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.mansion img {
-    width: 80%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
-    border: solid 2px rgba(86, 255, 255, 0.733);
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px; 
-}
-
-.aspros img {
-    width: 80%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display:block;
-    border: solid 2px rgba(86, 255, 255, 0.733);
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-
 footer {
     background: rgb(20, 20, 20);
 }
@@ -210,6 +154,12 @@ footer {
     width: 50px;
     height: 50px;
     display: flex;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+
+.instagram img {
+    border-radius: 50%;
 }
 
 .box-twitter, .box-facebook, .box-instagram, .box-whatsapp {
