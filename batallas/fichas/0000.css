@@ -1,0 +1,123 @@
+.turno {
+    width: 90%;
+    height: 90%;
+    margin: 40px 40px;
+}
+
+.turno-title {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 40px;
+}
+
+.turno-subtitle {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.turno-start {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Darkside;
+    font-weight: 100;
+    font-size: 90px;
+    background: linear-gradient(to top, #500101, #ff0000);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.transition {
+    background: linear-gradient(to bottom, transparent, #000000);
+    height: 700px;
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+}
+
+.black2 {
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+}
+
+.battle {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.margin-top-introduction {
+    margin-top: 50px;
+}
+
+
+.Background-star {
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    height: 7000px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin-top: 480px;
+}
+
+.Background-star::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+        radial-gradient(rgba(255, 255, 255, 0.486) 1px, transparent 0.6px),
+        radial-gradient(rgba(255, 255, 255, 0.26) 1.5px, transparent 1.8px),
+        radial-gradient(rgba(255, 255, 255, 0.185) 0.5px, transparent 0.1px),
+        radial-gradient(rgba(255, 255, 255, 0.685) 1px, transparent 0.6px),
+        radial-gradient(rgba(255, 255, 255, 0.342) 1.2px, transparent 1.4px),
+        radial-gradient(rgba(255, 255, 255, 0.685) 0.4px, transparent 0.1px),
+        radial-gradient(rgba(255, 255, 255, 0.822) 1px, transparent 0.6px),
+        radial-gradient(rgba(255, 255, 255, 0.507) 1.3px, transparent 1px);
+    background-size:
+        60px 60px,
+        120px 90px,
+        200px 200px,
+        30px 30px,
+        70px 70px;
+    background-position:
+        10px 20px,
+        50px 80px,
+        100px 12px,
+        20px 40px,
+        30px 10px;
+    opacity: 0.7;
+}
+
+.turno1-geminis {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Ancient;
+    font-family: 100;
+}
+
+.turno1 {
+    max-width: 60%;
+    margin: auto;
+}
+
+.turno1 h3 {
+    font-weight: 100;
+}
+
+.turno1-text {
+    text-align: center;
+    padding: 70px;
+}
+
+.turno1-img {
+    width: 100%;
+}
+
+.geminis-img {
+    width: 300px;
+    margin: auto;
+}
